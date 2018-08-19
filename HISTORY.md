@@ -181,7 +181,7 @@ json -I -f package.json -e "this.scripts['start:dev']='run-p start:api start:cli
 
 ##### To avoid alert about typescript casting in libraries eg meteor-rxjs):
 json -I -f tsconfig.json -e "this.compilerOptions.skipLibCheck=true"
-json: updated "tsconfig.json" in-place
+# json: updated "tsconfig.json" in-place
 
 
 npm run start:dev
